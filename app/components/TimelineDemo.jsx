@@ -3,42 +3,30 @@ import { Timeline } from "./ui/timeline"
 export default function TimelineDemo() {
     const data = [
         {
-            title: "2024",
+            title: "2025",
             content: (
                 <div>
                     <p className="mb-8 text-xs font-normal text-gray-300 md:text-sm">
                         Built and launched my portfolio website from scratch
                     </p>
+
                     <div className="grid grid-cols-2 gap-4">
-                        <img
-                            src="https://assets.aceternity.com/templates/startup-1.webp"
-                            alt="project screenshot"
-                            width={500}
-                            height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
-                        />
-                        <img
-                            src="https://assets.aceternity.com/templates/startup-2.webp"
-                            alt="project screenshot"
-                            width={500}
-                            height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
-                        />
-                        <img
-                            src="https://assets.aceternity.com/templates/startup-3.webp"
-                            alt="project screenshot"
-                            width={500}
-                            height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
-                        />
-                        <img
-                            src="https://assets.aceternity.com/templates/startup-4.webp"
-                            alt="project screenshot"
-                            width={500}
-                            height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
-                        />
+                        <a
+                            href="https://todo-ivory-three.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="/images/Todo.png"
+                                // alt="Your App Screenshot"
+                                width={500}
+                                height={500}
+                                className="h-20 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60 hover:opacity-80 transition-opacity"
+                            />
+                        </a>
+
                     </div>
+
                 </div>
             ),
         },
