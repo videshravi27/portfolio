@@ -1,18 +1,21 @@
 import About from "./components/About";
 import TechStack from "./components/TechStack";
 import TimelineDemo from "./components/TimelineDemo";
+import { FooterTransition } from "./components/ui/footer-transition";
+import { ScrollIndicator } from "./components/ui/ScrollIndicator";
 import { SectionTransition } from "./components/ui/section-transition";
 
 export default function Home() {
   return (
     <div className="font-sans">
       <section id="about" className="min-h-screen px-4 md:px-36 pt-20 relative">
-        <div className="flex flex-row md:flex-row max-w-7xl mx-auto gap-28">
+        <div className="flex flex-col md:flex-row max-w-7xl mx-auto gap-12 md:gap-32">
           <About />
           <TechStack />
         </div>
       </section>
 
+      <ScrollIndicator />
       <SectionTransition />
 
       <section id="projects" className="min-h-screen bg-[#121212]">
@@ -27,6 +30,8 @@ export default function Home() {
           <TimelineDemo />
         </div>
       </section>
+
+      <FooterTransition />
     </div>
   );
 }

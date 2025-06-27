@@ -17,11 +17,11 @@ const About = () => {
     }, [isScrolled, controls]);
 
     return (
-        <div className="flex flex-col mt-28 space-y-4">
-            <div className="text-5xl font-bold">hey, I'm</div>
+        <div className="flex flex-col mt-5 md:mt-28 space-y-4">
+            <div className="text-3xl md:text-5xl font-bold mb-3">hey, I'm</div>
             <motion.div
                 id="hero-videsh"
-                className="text-9xl font-extrabold text-violet-600"
+                className="text-7xl md:text-9xl font-extrabold text-violet-600"
                 initial={{ opacity: 1, y: 0, scale: 1 }}
                 animate={controls}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
@@ -33,10 +33,10 @@ const About = () => {
             >
                 videsh
             </motion.div>
-            <div className="text-5xl font-bold">a Student, Developer</div>
+            <div className="text-3xl md:text-5xl font-bold ">a Full Stack Developer</div>
             <div className="mt-6 ml-1 text-xl">
                 <p>📍 India 🇮🇳</p>
-                <p>🎓 Sri Eshwar College of Engineering, <span className="ml-8">Coimbatore</span></p>
+                <p>🎓 Sri Eshwar College of Engineering, <span className="ml-0 md:ml-8">Coimbatore</span></p>
             </div>
         </div>
     );

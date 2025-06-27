@@ -5,14 +5,22 @@ export default function Footer() {
                 <div className="mb-4 md:mb-0">
                     <span className="font-semibold text-lg">© {new Date().getFullYear()} Videsh</span>
                 </div>
-                <div className="mt-4 md:mt-0">
+                <div className="mt-4 md:mt-0 flex gap-10">
                     <a
-                        href="https://github.com/"
+                        href="https://github.com/videshravi27"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-white transition"
                     >
                         GitHub
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/videsh-r-v-544461243/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-white transition"
+                    >
+                        LinkedIn 
                     </a>
                 </div>
             </div>

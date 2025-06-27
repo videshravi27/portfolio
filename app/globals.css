@@ -39,7 +39,6 @@ body {
   padding: 2rem 0;
 }
 
-/* Shadow overlays */
 .tech-scroll-wrapper::before,
 .tech-scroll-wrapper::after {
   content: "";
@@ -79,6 +78,23 @@ body {
   justify-content: center;
   align-items: center;
   min-width: 100px;
+}
+
+@media (max-width: 768px) {
+  .tech-scroll-track {
+    gap: 1rem;
+  }
+
+  .tech-icon {
+    min-width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tech-icon svg {
+    width: 36px;
+    height: 36px;
+  }
 }
 
 @keyframes tech-marquee {
