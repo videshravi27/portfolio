@@ -27,7 +27,7 @@ export const Timeline = ({ data }) => {
             <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
                 <h2 className="text-lg md:text-4xl mb-4 text-gray-100 max-w-4xl">Changelog from my journey</h2>
                 <p className="text-gray-300 text-sm md:text-base max-w-sm">
-                    I&apos;ve been working on my projects for the past few years. Here&apos;s a timeline of my journey.
+                    I've been working on my projects for the past few years. Here's a timeline of my journey.
                 </p>
             </div>
 
