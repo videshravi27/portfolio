@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useScrollPosition } from '../hooks/useScrollPosition';
+import Social from './Social';
 
 const About = () => {
     const controls = useAnimation();
@@ -34,10 +35,12 @@ const About = () => {
                 videsh
             </motion.div>
             <div className="text-3xl md:text-5xl font-bold ">a Full Stack Developer</div>
-            <div className="mt-6 ml-1 text-xl">
+            <div className="ml-1 text-xl">
                 <p>📍 India 🇮🇳</p>
-                <p>🎓 Sri Eshwar College of Engineering, <span className="ml-0 md:ml-8">Coimbatore</span></p>
+                {/* <p>🎓 Sri Eshwar College of Engineering, <span className="ml-0 md:ml-8">Coimbatore</span></p> */}
             </div>
+
+            <Social />
         </div>
     );
 };

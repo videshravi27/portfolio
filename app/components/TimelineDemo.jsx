@@ -31,15 +31,11 @@ export default function TimelineDemo() {
             ),
         },
         {
-            title: "Early 2023",
+            title: "2024",
             content: (
                 <div>
                     <p className="mb-8 text-xs font-normal text-gray-300 md:text-sm">
-                        Developed several web applications using React and Next.js
-                    </p>
-                    <p className="mb-8 text-xs font-normal text-gray-300 md:text-sm">
-                        Focused on improving my skills in frontend development and UI/UX design. Here are some of the projects I
-                        worked on.
+                        Developed web applications using React and Next.js
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <img
@@ -75,7 +71,7 @@ export default function TimelineDemo() {
             ),
         },
         {
-            title: "2022",
+            title: "Early 2024",
             content: (
                 <div>
                     <p className="mb-4 text-xs font-normal text-gray-300 md:text-sm">
